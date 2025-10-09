@@ -16,12 +16,12 @@ public sealed partial class ZLevelComponent : Component
     /// </summary>
     [DataField]
     [AutoNetworkedField]
-    public MapId PrimaryMapId;
+    public EntityUid PrimaryMapId;
 
     /// <summary>
     /// A list of maps thats part of a multi-z map and their order. Should be the same on all maps in a multi-z map.
     /// </summary>
     [DataField]
     [AutoNetworkedField]
-    public List<MapId> LevelList = [];
+    public List<EntityUid> LevelList = [];
 }

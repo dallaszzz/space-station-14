@@ -1,9 +1,9 @@
 cmd-zlevel-help = Usage: zlevel <MapID> [Count]
 cmd-zlevel-desc = Add a number of new blank z-levels to a map or leave blank to add one.
-cmd-zlevel-not-enough-args = Not enough arguments.
 cmd-zlevel-map-not-int = MapID is not a valid integer.
 cmd-zlevel-count-not-int = Count is not a valid integer.
 cmd-zlevel-map-doesnt-exist = Map does not exist or is not a MapId.
-cmd-zlevel-too-many-args = Too many arguments.
-cmd-zlevel-invalid-map-with-list = Invalid map when updating list.
 cmd-zlevel-command-finished = Created {$count} levels successfully.
+cmd-zlevel-uid-fail = Failed to get the primary map uid.
+cmd-zlevel-hint-mapid = <MapId>
+cmd-zlevel-hint-count = [Count]

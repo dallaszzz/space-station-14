@@ -1,0 +1,12 @@
+cmd-multizsave-help = Usage: multizsave <Path> <Force> <MapIds>
+cmd-multizsave-desc = Saves multiple maps to a single file. Set the force argument to true to save initialized maps.
+cmd-multizsave-error-path = Entered path is invalid.
+cmd-multizsave-error-force = Force argument was not a bool.
+cmd-multizsave-error-map = Invalid map.
+cmd-multizsave-attempt = Attempting to save maps.
+cmd-multizsave-success = Maps saved successfully.
+cmd-multizsave-fail = Maps failed to save.
+cmd-multizsave-initialized = Tried to save an initialized map.
+cmd-multizsave-hint-path = <Path>
+cmd-multizsave-hint-force = <Force>
+cmd-multizsave-hint-map = <MapIds>
